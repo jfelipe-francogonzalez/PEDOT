@@ -1,0 +1,68 @@
+# ----------------- Atom Definition Section -----------------
+units real
+atom_style full
+special_bonds lj/coul 0.0 0.0 0.5
+
+pair_style hybrid lj/cut/coul/long 11 12
+pair_modify mix arithmetic
+bond_style hybrid harmonic
+angle_style hybrid harmonic
+dihedral_style hybrid opls
+improper_style hybrid harmonic
+kspace_style pppm 0.0001
+
+
+read_data "system.data"
+
+neighbor 2.0 bin
+neigh_modify delay 0 every 1 check yes
+
+# ----------------- Settings Section -----------------
+
+include "in.settings"
+
+# ----------------- Run Section -----------------
+
+#  -- minimize --
+
+ unfix fShakeSPCE
+ thermo 1000
+ minimize 1.0e-5 1.0e-7 1000 10000
+ 
+ fix fShakeSPCE spce shake 0.0001 10 100 b 17 a 20
+
+ velocity  all create 300 4568  dist gaussian mom yes rot yes
+ dump 1 all xtc 10000 md.xtc 
+
+
+ thermo 10000
+ timestep 1.0
+ fix   1 all npt temp 298.15 298.15 100.0  iso 1.0 1.0 100
+ variable step   equal step
+ variable press  equal press
+ variable d  equal density
+ variable V  equal vol
+ variable pe       equal  pe       #total potential energy
+ fix md0 all print 1000 "${step} ${press} ${d} ${V} ${pe}" file md_npt.txt
+ restart 100000 RESTART/restart.npt
+ run  1000000
+ write_data final-npt.data
+ write_restart restart.npt
+
+ unfix 1
+ unfix md0
+ thermo 10000
+ timestep 1.0
+ fix   1 all nvt temp 298.15 298.15 100.0  
+ variable step   equal step
+ variable press  equal press
+ variable d  equal density
+ variable V  equal vol
+ variable pe       equal  pe       #total potential energy
+ fix md0 all print 1000 "${step} ${press} ${d} ${V} ${pe}" file md_nvt.txt
+ restart 10000 RESTART/restart.nvt
+ run  10000000
+ write_data final-nvt.data
+ write_restart restart.nvt
+
+
