@@ -7,10 +7,11 @@ The purpose of this Repository is to fill the technical computational knowledge 
 #### Initial goal
 I am starting to upload my original contribution to PEDOT's molecular models
 
-
+----
 # About the Author
 **J. Felipe Franco-Gonzalez** has contributed with highly cited scientific papers to describe the morphology of PEDOT. 
 Original Documentation can be found at:
 
-[Google-Scholar](https://scholar.google.com/citations?user=oKKoeZQAAAAJ&hl=en)
-[Scopus](https://www.scopus.com/authid/detail.uri?authorId=55413710200)
+[Google-Scholar link](https://scholar.google.com/citations?user=oKKoeZQAAAAJ&hl=en)
+
+[Scopus link](https://www.scopus.com/authid/detail.uri?authorId=55413710200)
