@@ -1,0 +1,48 @@
+    pair_coeff @/atom:N6/type1 @/atom:N6/type1 lj/cut/coul/long 0.25 3.55
+    pair_coeff @/atom:N6/type2 @/atom:N6/type2 lj/cut/coul/long 0.07 3.55
+    pair_coeff @/atom:N6/type3 @/atom:N6/type3 lj/cut/coul/long 0.03 2.42
+    pair_coeff @/atom:N6/type4 @/atom:N6/type4 lj/cut/coul/long 0.14 2.9
+    pair_coeff @/atom:N6/type5 @/atom:N6/type5 lj/cut/coul/long 0.066 3.5
+    pair_coeff @/atom:N6/type6 @/atom:N6/type6 lj/cut/coul/long 0.03 2.5
+    pair_coeff @/atom:N6/type7 @/atom:N6/type7 lj/cut/coul/long 0.07 3.55
+    bond_coeff @/bond:N6/type1 harmonic 268.0 1.529
+    bond_coeff @/bond:N6/type3 harmonic 320.0 1.41
+    bond_coeff @/bond:N6/type4 harmonic 340.0 1.09
+    bond_coeff @/bond:N6/type8 harmonic 250.0 1.76
+    bond_coeff @/bond:N6/type12 harmonic 450.0 1.364
+    bond_coeff @/bond:N6/type13 harmonic 469.0 1.4
+    bond_coeff @/bond:N6/type14 harmonic 469.0 1.4
+    bond_coeff @/bond:N6/type16 harmonic 469.0 1.4
+    bond_coeff @/bond:N6/type17 harmonic 367.0 1.08
+    angle_coeff @/angle:N6/type3 harmonic 50.0 109.5
+    angle_coeff @/angle:N6/type4 harmonic 33.0 107.8
+    angle_coeff @/angle:N6/type6 harmonic 35.0 109.5
+    angle_coeff @/angle:N6/type7 harmonic 37.5 110.7
+    angle_coeff @/angle:N6/type26 harmonic 75.0 111.0
+    angle_coeff @/angle:N6/type35 harmonic 63.0 120.0
+    angle_coeff @/angle:N6/type37 harmonic 63.0 120.0
+    angle_coeff @/angle:N6/type45 harmonic 70.0 120.0
+    angle_coeff @/angle:N6/type46 harmonic 70.0 120.0
+    angle_coeff @/angle:N6/type47 harmonic 85.0 119.4
+    angle_coeff @/angle:N6/type48 harmonic 85.0 119.4
+    angle_coeff @/angle:N6/type53 harmonic 35.0 120.0
+    dihedral_coeff @/dihedral:N6/type6 opls -0.55 0.0 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type7 opls 0.0 0.0 0.468 0.0
+    dihedral_coeff @/dihedral:N6/type8 opls 0.0 0.0 0.3 0.0
+    dihedral_coeff @/dihedral:N6/type20 opls 0.0 0.0 0.76 0.0
+    dihedral_coeff @/dihedral:N6/type40 opls 0.0 3.0 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type41 opls 0.0 3.0 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type42 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type44 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type45 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type51 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type53 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type54 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type56 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type60 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type84 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type87 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type90 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff @/dihedral:N6/type100 opls 0.0 7.25 0.0 0.0
+    improper_coeff @/improper:N6/type1 harmonic 2.5 180
+    improper_coeff @/improper:N6/type2 harmonic 2.5 180
