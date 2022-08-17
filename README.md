@@ -13,6 +13,6 @@ I am starting to upload my original contribution to PEDOT's molecular models
 
 Original Documentation can be found at:
 
-- [Google-Scholar](https://scholar.google.com/citations?user=oKKoeZQAAAAJ&hl=en)
-
+- [Google-Scholar](https://scholar.google.com/citations?user=oKKoeZQAAAAJ&hl=en)\n
+- [Publons](https://publons.com/wos-op/researcher/3915934/juan-felipe-franco-gonzalez/)\n
 - [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55413710200)
