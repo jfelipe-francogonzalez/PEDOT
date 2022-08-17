@@ -12,6 +12,6 @@ I am starting to upload my original contribution to PEDOT's molecular models
 **J. Felipe Franco-Gonzalez** has contributed with highly cited scientific papers to describe the morphology of PEDOT. 
 Original Documentation can be found at:
 
-[Google-Scholar link](https://scholar.google.com/citations?user=oKKoeZQAAAAJ&hl=en)
+- [Google-Scholar](https://scholar.google.com/citations?user=oKKoeZQAAAAJ&hl=en)
 
-[Scopus link](https://www.scopus.com/authid/detail.uri?authorId=55413710200)
+- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55413710200)
